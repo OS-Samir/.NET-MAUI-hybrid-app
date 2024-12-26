@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/salimalfa398/Desktop/3rd year 1st sem/Application Development/coursework/coursework.csproj": {}
+    "/Users/salimalfa398/Desktop/3rd year 1st sem/Application Development/wallet pro/coursework.csproj": {}
   },
   "projects": {
-    "/Users/salimalfa398/Desktop/3rd year 1st sem/Application Development/coursework/coursework.csproj": {
+    "/Users/salimalfa398/Desktop/3rd year 1st sem/Application Development/wallet pro/coursework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/salimalfa398/Desktop/3rd year 1st sem/Application Development/coursework/coursework.csproj",
+        "projectUniqueName": "/Users/salimalfa398/Desktop/3rd year 1st sem/Application Development/wallet pro/coursework.csproj",
         "projectName": "coursework",
-        "projectPath": "/Users/salimalfa398/Desktop/3rd year 1st sem/Application Development/coursework/coursework.csproj",
+        "projectPath": "/Users/salimalfa398/Desktop/3rd year 1st sem/Application Development/wallet pro/coursework.csproj",
         "packagesPath": "/Users/salimalfa398/.nuget/packages/",
-        "outputPath": "/Users/salimalfa398/Desktop/3rd year 1st sem/Application Development/coursework/obj/",
+        "outputPath": "/Users/salimalfa398/Desktop/3rd year 1st sem/Application Development/wallet pro/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
@@ -196,6 +196,21 @@
         }
       },
       "runtimes": {
+        "android-arm": {
+          "#import": []
+        },
+        "android-arm64": {
+          "#import": []
+        },
+        "android-x64": {
+          "#import": []
+        },
+        "android-x86": {
+          "#import": []
+        },
+        "iossimulator-arm64": {
+          "#import": []
+        },
         "maccatalyst-arm64": {
           "#import": []
         }

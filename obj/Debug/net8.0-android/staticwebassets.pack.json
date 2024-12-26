@@ -1,27 +1,27 @@
 {
   "Files": [
     {
-      "Id": "/Users/salimalfa398/Desktop/3rd year 1st sem/Application Development/coursework/obj/Debug/net8.0-android/scopedcss/bundle/coursework.styles.css",
+      "Id": "/Users/salimalfa398/Desktop/3rd year 1st sem/Application Development/wallet pro/obj/Debug/net8.0-android/scopedcss/bundle/coursework.styles.css",
       "PackagePath": "staticwebassets/coursework.styles.css"
     },
     {
-      "Id": "/Users/salimalfa398/Desktop/3rd year 1st sem/Application Development/coursework/wwwroot/css/app.css",
+      "Id": "/Users/salimalfa398/Desktop/3rd year 1st sem/Application Development/wallet pro/wwwroot/css/app.css",
       "PackagePath": "staticwebassets/css/app.css"
     },
     {
-      "Id": "/Users/salimalfa398/Desktop/3rd year 1st sem/Application Development/coursework/wwwroot/css/bootstrap/bootstrap.min.css",
+      "Id": "/Users/salimalfa398/Desktop/3rd year 1st sem/Application Development/wallet pro/wwwroot/css/bootstrap/bootstrap.min.css",
       "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
     },
     {
-      "Id": "/Users/salimalfa398/Desktop/3rd year 1st sem/Application Development/coursework/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "Id": "/Users/salimalfa398/Desktop/3rd year 1st sem/Application Development/wallet pro/wwwroot/css/bootstrap/bootstrap.min.css.map",
       "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Id": "/Users/salimalfa398/Desktop/3rd year 1st sem/Application Development/coursework/wwwroot/favicon.png",
+      "Id": "/Users/salimalfa398/Desktop/3rd year 1st sem/Application Development/wallet pro/wwwroot/favicon.png",
       "PackagePath": "staticwebassets/favicon.png"
     },
     {
-      "Id": "/Users/salimalfa398/Desktop/3rd year 1st sem/Application Development/coursework/wwwroot/index.html",
+      "Id": "/Users/salimalfa398/Desktop/3rd year 1st sem/Application Development/wallet pro/wwwroot/index.html",
       "PackagePath": "staticwebassets/index.html"
     },
     {

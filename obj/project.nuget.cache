@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "00h3ZLqJ9D4=",
+  "dgSpecHash": "QgBjTmE2hHk=",
   "success": true,
-  "projectFilePath": "/Users/salimalfa398/Desktop/3rd year 1st sem/Application Development/coursework/coursework.csproj",
+  "projectFilePath": "/Users/salimalfa398/Desktop/3rd year 1st sem/Application Development/wallet pro/coursework.csproj",
   "expectedPackageFiles": [
     "/Users/salimalfa398/.nuget/packages/googlegson/2.10.1.4/googlegson.2.10.1.4.nupkg.sha512",
     "/Users/salimalfa398/.nuget/packages/microsoft.aspnetcore.authorization/8.0.10/microsoft.aspnetcore.authorization.8.0.10.nupkg.sha512",
