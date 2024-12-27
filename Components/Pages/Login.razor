@@ -1,0 +1,46 @@
+@page "/login"
+@using coursework.Models
+@using coursework.Services
+@inject UserService UserService
+@inject NavigationManager NavigationManager
+
+<h3>Login</h3>
+
+<div>
+    <input @bind="LoginUsername" placeholder="Username" />
+    <input @bind="LoginPassword" placeholder="Password" type="password" />
+    <button @onclick="PerformLogin">Login</button>
+</div>
+
+@if (!string.IsNullOrEmpty(Message))
+{
+    <p>@Message</p>
+}
+
+@code {
+    private string LoginUsername = "";
+    private string LoginPassword = "";
+    private string Message = "";
+
+    private async Task PerformLogin()
+    {
+        if (string.IsNullOrWhiteSpace(LoginUsername) || string.IsNullOrWhiteSpace(LoginPassword))
+        {
+            Message = "Please enter both username and password.";
+            return;
+        }
+
+        if (UserService.Login(LoginUsername, LoginPassword))
+        {
+            Message = "Login successful. Redirecting to dashboard...";
+            await Task.Delay(2000);  // Wait for the message to display
+            NavigationManager.NavigateTo("/dashboard");  // Redirect to the dashboard page
+        }
+        else
+        {
+            Message = "Invalid username or password.";
+        }
+    }
+}
+
+

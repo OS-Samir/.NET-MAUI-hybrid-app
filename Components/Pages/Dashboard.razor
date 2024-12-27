@@ -1,0 +1,35 @@
+@page "/dashboard"
+@using coursework.Services
+@inject UserService UserService
+@inject NavigationManager NavigationManager
+
+<div class="dashboard-container">
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h3>Dashboard</h3>
+        <ul>
+            <li><NavLink href="/dashboard" class="nav-link" Match="NavLinkMatch.All">Home</NavLink></li>
+            <li><NavLink href="/dashboard/income" class="nav-link">Income</NavLink></li>
+            <li><NavLink href="/dashboard/expenses" class="nav-link">Expenses</NavLink></li>
+            <li><button class="logout-btn" @onclick="Logout">Logout</button></li>
+        </ul>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="content-area">
+        <h3>Welcome to your Dashboard</h3>
+
+        <p>Here is your user dashboard. You can manage your income, expenses, and more.</p>
+
+        @* You can replace this with actual content for Home, Income, and Expenses *@
+        <p>Additional content related to the Home page will go here.</p>
+    </div>
+</div>
+
+@code {
+    private void Logout()
+    {
+        UserService.Logout();  // Clear the current user
+        NavigationManager.NavigateTo("/login");  // Redirect to login page
+    }
+}

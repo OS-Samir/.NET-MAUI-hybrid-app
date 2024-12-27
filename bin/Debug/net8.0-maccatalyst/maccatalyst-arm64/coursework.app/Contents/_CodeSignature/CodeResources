@@ -12,6 +12,10 @@
 		<data>
 		+OMbkiSxN0GuTl7QrqzhWW/07Sw=
 		</data>
+		<key>Resources/MauiInfo.plist</key>
+		<data>
+		A/74dbGgxu/fUONI00Bycn7+qco=
+		</data>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>
 		<data>
 		oowkf1sL6T19nanXUObgmuayWqM=
@@ -56,13 +60,21 @@
 		<data>
 		q/MDqBoEj02v9tdu3AjM/ZeKQLQ=
 		</data>
+		<key>Resources/wwwroot/css/tailwind.css</key>
+		<data>
+		2I3GsUmJB0+NQH6bf3+FXVgWID4=
+		</data>
+		<key>Resources/wwwroot/css/tailwind.output.css</key>
+		<data>
+		0jQ7f2fc/N73MggNjHy5sJtZ1gY=
+		</data>
 		<key>Resources/wwwroot/favicon.png</key>
 		<data>
 		7r/hu8/biR6gUQ5JDFPoGl7PC1I=
 		</data>
 		<key>Resources/wwwroot/index.html</key>
 		<data>
-		o7cgyZZvgJl7YHXCEUDL9oYfWdY=
+		qlhs23xPTfBz4bNpcTgDeP9ZXnI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -1499,14 +1511,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6uqZ1ptXjgWpbqp42w/+IN+k2hv47kn2cL5rytytesY=
+			rQxDurZbvRI8FShbbK6Z37xPjblzT5xyJxv8i+Lljnw=
 			</data>
 		</dict>
 		<key>MonoBundle/coursework.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FWYY6U0B/3NibIHF+jR6R6W8RHuamXIdYAehtN3VTb8=
+			0LJZMVqhjy8QjgNpECmQIOevcS/Z7Q4d8Px2ad94jyo=
 			</data>
 		</dict>
 		<key>MonoBundle/cs/Microsoft.Maui.Controls.resources.dll</key>
@@ -1775,6 +1787,13 @@
 			rs/Pe15TI2MN0BCLsw0qXXH8iKfRsddSaNvnTzrWLvY=
 			</data>
 		</dict>
+		<key>Resources/MauiInfo.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UEORARmYMQB21vcObyk2tL7rhjGOSCGHQz3UGRUssW0=
+			</data>
+		</dict>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>
 		<dict>
 			<key>hash2</key>
@@ -1852,6 +1871,20 @@
 			gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=
 			</data>
 		</dict>
+		<key>Resources/wwwroot/css/tailwind.css</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zBp60NAZ3bHTLQ7LWIugrCbOQdhiXdbDZjSLJfg6KOw=
+			</data>
+		</dict>
+		<key>Resources/wwwroot/css/tailwind.output.css</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MfsvOfhFZOcUUvla14Jv5gmE2ZOcJoHqXl0BgIGd+Nc=
+			</data>
+		</dict>
 		<key>Resources/wwwroot/favicon.png</key>
 		<dict>
 			<key>hash2</key>
@@ -1863,7 +1896,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			imPbK7LVEqO88fn0uJ61eINJkky3s7LDwVFKrxn39ds=
+			5voIZHDDoTrVrJqLWUucTEDmews2yhq5chVNaI/1bFM=
 			</data>
 		</dict>
 	</dict>

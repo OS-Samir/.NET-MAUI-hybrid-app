@@ -1,26 +1,35 @@
 ﻿using Microsoft.Extensions.Logging;
-
+using coursework.Services;
 namespace coursework;
 
 public static class MauiProgram
 {
-	public static MauiApp CreateMauiApp()
-	{
-		var builder = MauiApp.CreateBuilder();
-		builder
-			.UseMauiApp<App>()
-			.ConfigureFonts(fonts =>
-			{
-				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-			});
+	     public static MauiApp CreateMauiApp()
+        {
+            var builder = MauiApp.CreateBuilder();
 
-		builder.Services.AddMauiBlazorWebView();
+            // Register the main app and fonts for usage
+            builder
+                .UseMauiApp<App>()
+                .ConfigureFonts(fonts =>
+                {
+                    fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+                });
 
+            // Register your custom UserService as a singleton
+            builder.Services.AddSingleton<UserService>();
+
+            // Add the Blazor WebView service, enabling Blazor components to be rendered
+            builder.Services.AddMauiBlazorWebView();
+
+            // Add developer tools and debug logging for Blazor WebView when in DEBUG mode
 #if DEBUG
-		builder.Services.AddBlazorWebViewDeveloperTools();
-		builder.Logging.AddDebug();
+            builder.Services.AddBlazorWebViewDeveloperTools();
+            builder.Logging.AddDebug();
 #endif
 
-		return builder.Build();
-	}
+            // Return the built MauiApp
+            return builder.Build();
+        }
+    
 }
