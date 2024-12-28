@@ -50,7 +50,11 @@
 		</data>
 		<key>Resources/wwwroot/css/app.css</key>
 		<data>
-		E/oDUzcarmeDsgZweAT1ZZcRQ10=
+		4wJjTFwsM2EbIV050MdPdFfw9LQ=
+		</data>
+		<key>Resources/wwwroot/css/app.min.css</key>
+		<data>
+		JD0Azdld+J6BywqO6MP5NcReheM=
 		</data>
 		<key>Resources/wwwroot/css/bootstrap/bootstrap.min.css</key>
 		<data>
@@ -59,6 +63,10 @@
 		<key>Resources/wwwroot/css/bootstrap/bootstrap.min.css.map</key>
 		<data>
 		q/MDqBoEj02v9tdu3AjM/ZeKQLQ=
+		</data>
+		<key>Resources/wwwroot/css/styles.css</key>
+		<data>
+		g7EHR6RMlwJw+hXZzorrpXOwHps=
 		</data>
 		<key>Resources/wwwroot/css/tailwind.css</key>
 		<data>
@@ -74,7 +82,11 @@
 		</data>
 		<key>Resources/wwwroot/index.html</key>
 		<data>
-		qlhs23xPTfBz4bNpcTgDeP9ZXnI=
+		pCrxB6BRJguMVCl/198Fq+96Qoc=
+		</data>
+		<key>Resources/wwwroot/js/script.js</key>
+		<data>
+		rUbe8qadhXHbn9rPxjgW62QmqFs=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -1490,7 +1502,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PQQx5pnSJeCFviOjOI8/jcGqF079JT56z1AvxHplcmo=
+			sLoAsAPuPN4/2/ddC79z631FYvIrGZMYDHfrlGFxVys=
 			</data>
 		</dict>
 		<key>MonoBundle/ar/Microsoft.Maui.Controls.resources.dll</key>
@@ -1511,14 +1523,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rQxDurZbvRI8FShbbK6Z37xPjblzT5xyJxv8i+Lljnw=
+			57jQ5UgrM1Y5fbqOv5iZN3LpnQWG4ExHUIVVVkIzN04=
 			</data>
 		</dict>
 		<key>MonoBundle/coursework.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0LJZMVqhjy8QjgNpECmQIOevcS/Z7Q4d8Px2ad94jyo=
+			7MvaIk+tkDbhaUksmlYO0WjKtU+XT/4ks0jTgJe1Vvc=
 			</data>
 		</dict>
 		<key>MonoBundle/cs/Microsoft.Maui.Controls.resources.dll</key>
@@ -1854,7 +1866,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K1bY5kgLeD7nMlhLfmEK3TdjOVTQGBzyOIF4YwRlzuQ=
+			LvBDioWQ39F4Ge4p981QWtdi4fGLy0aUFmuokRc3Npw=
+			</data>
+		</dict>
+		<key>Resources/wwwroot/css/app.min.css</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9OGZ6WV+9Dj5F9581vrMccVCKAshM3REVXMzXFf3YgM=
 			</data>
 		</dict>
 		<key>Resources/wwwroot/css/bootstrap/bootstrap.min.css</key>
@@ -1869,6 +1888,13 @@
 			<key>hash2</key>
 			<data>
 			gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=
+			</data>
+		</dict>
+		<key>Resources/wwwroot/css/styles.css</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zf4/ckNCrQq5WO1LcJcJV0cHnpajGRwedRUKG3CsrhE=
 			</data>
 		</dict>
 		<key>Resources/wwwroot/css/tailwind.css</key>
@@ -1896,7 +1922,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5voIZHDDoTrVrJqLWUucTEDmews2yhq5chVNaI/1bFM=
+			t0i8Vx0hmhtJbtSw38pFxj7p5Z9zRMsA16Eg2MG63BU=
+			</data>
+		</dict>
+		<key>Resources/wwwroot/js/script.js</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Otoz/LktA9j3zcFFLViMhr0u+T9tgg1HlL+nmiERX0o=
 			</data>
 		</dict>
 	</dict>

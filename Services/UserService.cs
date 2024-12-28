@@ -57,5 +57,7 @@ namespace coursework.Services
         {
             CurrentUser = null; // Clear the current user to log out
         }
+
+        
     }
 }

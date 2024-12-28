@@ -1,4 +1,4 @@
-@page "/register"
+@* @page "/register"
 @using coursework.Models
 @using coursework.Services
 @inject UserService UserService
@@ -51,6 +51,89 @@
                 Password = UserService.HashPassword(RegisterPassword),
                 Email = RegisterEmail
             };
+
+        Users.Add(newUser);
+        UserService.SaveUsers(Users);
+
+        Message = "Registration successful. Redirecting to login...";
+        Task.Delay(2000).ContinueWith(_ => NavigationManager.NavigateTo("/login"));
+    }
+} *@
+
+
+
+@page "/register"
+@using coursework.Models
+@using coursework.Services
+@inject UserService UserService
+@inject NavigationManager NavigationManager
+
+<link rel="stylesheet" href="css/styles.css">
+
+
+
+<div class="register-container">
+    <div class="register-card">
+        <h2 class="register-title">Register</h2>
+        <form @onsubmit="HandleRegister">
+            <div class="form-group">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" id="username" class="form-input" placeholder="Enter your username" @bind="RegisterUsername" />
+            </div>
+            <div class="form-group">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" id="password" class="form-input" placeholder="Enter your password" @bind="RegisterPassword" />
+            </div>
+            <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" class="form-input" placeholder="Enter your email" @bind="RegisterEmail" />
+            </div>
+            <button type="submit" class="form-button">Register</button>
+        </form>
+        <p class="register-link">
+            Already have an account? <a href="login" class="register-link-text">Login</a>
+        </p>
+    </div>
+</div>
+
+@if (!string.IsNullOrEmpty(Message))
+{
+    <p class="message">@Message</p>
+}
+
+@code {
+    private string RegisterUsername = "";
+    private string RegisterPassword = "";
+    private string RegisterEmail = "";
+    private string Message = "";
+
+    private List<User> Users = new();
+
+    protected override void OnInitialized()
+    {
+        Users = UserService.LoadUsers();  // Load users from the service
+    }
+
+    private void HandleRegister()
+    {
+        if (string.IsNullOrWhiteSpace(RegisterUsername) || string.IsNullOrWhiteSpace(RegisterPassword))
+        {
+            Message = "Username and password are required.";
+            return;
+        }
+
+        if (Users.Any(u => u.Username == RegisterUsername))
+        {
+            Message = "Username already exists.";
+            return;
+        }
+
+        var newUser = new User
+        {
+            Username = RegisterUsername,
+            Password = UserService.HashPassword(RegisterPassword),
+            Email = RegisterEmail
+        };
 
         Users.Add(newUser);
         UserService.SaveUsers(Users);

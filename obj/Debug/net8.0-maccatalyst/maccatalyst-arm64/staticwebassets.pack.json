@@ -17,12 +17,8 @@
       "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Id": "/Users/salimalfa398/Desktop/3rd year 1st sem/Application Development/wallet pro/wwwroot/css/tailwind.css",
-      "PackagePath": "staticwebassets/css/tailwind.css"
-    },
-    {
-      "Id": "/Users/salimalfa398/Desktop/3rd year 1st sem/Application Development/wallet pro/wwwroot/css/tailwind.output.css",
-      "PackagePath": "staticwebassets/css/tailwind.output.css"
+      "Id": "/Users/salimalfa398/Desktop/3rd year 1st sem/Application Development/wallet pro/wwwroot/css/styles.css",
+      "PackagePath": "staticwebassets/css/styles.css"
     },
     {
       "Id": "/Users/salimalfa398/Desktop/3rd year 1st sem/Application Development/wallet pro/wwwroot/favicon.png",

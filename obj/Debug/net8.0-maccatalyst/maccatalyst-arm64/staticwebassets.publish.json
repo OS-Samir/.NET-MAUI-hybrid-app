@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AYUOmXkc9h+HXyejJ28CXWF4Y5mPTVq3H7R1vFLCfd0=",
+  "Hash": "/HK5iWrFroYyvRFAxEw5kp2LAT0I4C9Pc/STPoRJU0Y=",
   "Source": "coursework",
   "BasePath": "/",
   "Mode": "Root",
@@ -112,12 +112,12 @@
       "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/salimalfa398/Desktop/3rd year 1st sem/Application Development/wallet pro/wwwroot/css/tailwind.css",
+      "Identity": "/Users/salimalfa398/Desktop/3rd year 1st sem/Application Development/wallet pro/wwwroot/css/styles.css",
       "SourceId": "coursework",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/salimalfa398/Desktop/3rd year 1st sem/Application Development/wallet pro/wwwroot/",
       "BasePath": "/",
-      "RelativePath": "css/tailwind.css",
+      "RelativePath": "css/styles.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,26 +128,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/tailwind.css"
-    },
-    {
-      "Identity": "/Users/salimalfa398/Desktop/3rd year 1st sem/Application Development/wallet pro/wwwroot/css/tailwind.output.css",
-      "SourceId": "coursework",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/salimalfa398/Desktop/3rd year 1st sem/Application Development/wallet pro/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "css/tailwind.output.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/tailwind.output.css"
+      "OriginalItemSpec": "wwwroot/css/styles.css"
     },
     {
       "Identity": "/Users/salimalfa398/Desktop/3rd year 1st sem/Application Development/wallet pro/wwwroot/favicon.png",
